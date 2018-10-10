@@ -3,7 +3,7 @@
 
 **1.新建远程仓库，包含readme文件，如何把本地内容放进去？**  
 1.创建本地仓库：git init（这时候是空的）  
-2.关联远程仓库：git remore add origin git@github.com:jingpingyi/how-to-use-git.git  
+2.关联远程仓库：git remote add origin git@github.com:jingpingyi/how-to-use-git.git  
 3.git pull origin master把远程仓库中的内容拉下来（第一次使用git pull需要添加origin master）  
 4.本地文件复制到本地仓库中 
 
